@@ -59,7 +59,7 @@ const SideDrawer = () => {
                 duration: 5000,
                 isClosable: true,
                 position:'bottom-left'
-              })
+              });
         }
     }
 
