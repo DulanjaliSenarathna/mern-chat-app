@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [
     "mern",
@@ -25,5 +25,8 @@
     "nodemon": "^3.1.4",
     "os-browserify": "^0.3.0",
     "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
